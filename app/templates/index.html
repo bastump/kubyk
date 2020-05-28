@@ -90,10 +90,34 @@
         <div class="container">
           <h1 class="display-4"><img alt="WebUI" src="{{url_for('.static', filename='logo_big.png')}}" align="left">Kubyk</h1>
         </br>
-          <p class="lead">The simple Python/Flask application template.<br>
-          Feel free to use it for building any Web UI projects.</p>
+          <p class="lead">yolo or kys<br></p>
         </div>
       </div>
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_eea41"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 980,
+  "height": 610,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "dark",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_eea41"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
       <div class="row">
 
         <div class="col-md-3 mb-4">
